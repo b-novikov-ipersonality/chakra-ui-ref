@@ -1,6 +1,4 @@
 import React, { useRef } from "react";
-import logo from "./logo.svg";
-import "./App.css";
 import { Box, Flex, Heading } from "@chakra-ui/react";
 import Flickity from "react-flickity-component";
 
@@ -9,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <Box>
           <Heading>Damn that error!</Heading>
           <Flex as={Flickity} ref={ref}>
